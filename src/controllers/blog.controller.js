@@ -1,5 +1,6 @@
 const Blog = require("../model/blog.model");
 const getAllBlogs = async (req, res) => {
+  console.log("test");
    try {
      const blogs = await Blog.find();
      res.status(200).json(blogs);
