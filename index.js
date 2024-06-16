@@ -14,8 +14,8 @@ connectDB();
 app.use(express.json());
 app.use("/blogs", blogRoutes);
 
-app.listen(process.env.PORT, () => {
-  console.log(`server listening on port ${process.env.PORT}`);
+app.listen(3003, () => {
+  console.log(`server listening on port 3003`);
 });
 
 //
